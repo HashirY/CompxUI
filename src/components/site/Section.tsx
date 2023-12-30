@@ -14,7 +14,7 @@ const Section = ({
 	children: React.ReactNode
 }) => {
 	return (
-		<div>
+		<div className="font-ubuntu">
 			{/* Section Heading */}
 			<Title id={id || title} title={title} />
 

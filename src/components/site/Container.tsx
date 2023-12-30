@@ -8,7 +8,7 @@ const Container = ({
 	children: React.ReactNode
 }) => {
 	return (
-		<>
+		<section className="font-ubuntu">
 			<header className="mb-10 border-b pb-10 dark:border-zinc-700">
 				<h1 className="block text-2xl font-bold text-gray-800 dark:text-white sm:text-3xl">
 					{title}
@@ -18,7 +18,7 @@ const Container = ({
 				</p>
 			</header>
 			<div className="space-y-10 md:space-y-16">{children}</div>
-		</>
+		</section>
 	)
 }
 

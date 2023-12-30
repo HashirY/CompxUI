@@ -2,7 +2,7 @@ import { SiGithub, SiYoutube } from "react-icons/si"
 import { HiMoon, HiSun } from "react-icons/hi"
 import { useTheme } from "./useTheme"
 import { Link } from "react-router-dom"
-
+import { AiFillAliwangwang } from "react-icons/ai"
 const Navbar = () => {
 	// console.log(isDarkMode)
 	return (
@@ -13,9 +13,10 @@ const Navbar = () => {
 						<div className="flex flex-1 items-center justify-start">
 							<Link
 								to="/"
-								className="inline-flex h-10 items-center justify-center text-lg font-bold text-gray-800 dark:text-white"
+								className="font-ubuntu inline-flex h-10 items-center justify-center gap-x-3 text-lg font-bold text-gray-800 dark:text-white"
 							>
-								CompX
+								<AiFillAliwangwang className="h-8 w-8" />
+								ATOM.ui
 							</Link>
 						</div>
 						<div className="flex flex-1 items-center justify-end">
