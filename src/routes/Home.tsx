@@ -27,7 +27,7 @@ export const HomePage = () => {
 					widthLimit="none"
 					CustomLinkComponent={Link}
 					customLinkProps={{
-						to: "/button",
+						to: "/card",
 					}}
 				>
 					<RxIdCard className="h-10 w-10" />
@@ -38,7 +38,7 @@ export const HomePage = () => {
 					widthLimit="none"
 					CustomLinkComponent={Link}
 					customLinkProps={{
-						to: "/button",
+						to: "/input",
 					}}
 				>
 					<RxInput className="h-10 w-10" />
