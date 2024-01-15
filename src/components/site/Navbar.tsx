@@ -13,7 +13,7 @@ const Navbar = () => {
 						<div className="flex flex-1 items-center justify-start">
 							<Link
 								to="/"
-								className="font-ubuntu inline-flex h-10 items-center justify-center gap-x-3 text-lg font-bold text-gray-800 dark:text-white"
+								className="inline-flex h-10 items-center justify-center gap-x-3 font-ubuntu text-lg font-bold text-gray-800 dark:text-white"
 							>
 								<AiFillAliwangwang className="h-8 w-8" />
 								ATOM.ui

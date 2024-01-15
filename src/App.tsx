@@ -5,6 +5,7 @@ import { ButtonPage } from "./routes/Button"
 import { Routes, Route, Outlet, BrowserRouter } from "react-router-dom"
 import { HomePage } from "./routes/Home"
 import { NotFoundPage } from "./routes/NotFound"
+import Tags from "./routes/Tags"
 
 export default function App() {
 	return (
@@ -30,6 +31,7 @@ export function AppRoutes() {
 				<Route path="button" element={<ButtonPage />} />
 				<Route path="card" element={<CardPage />} />
 				<Route path="input" element={<InputPage />} />
+				<Route path="tags" element={<Tags />} />
 				<Route path="*" element={<NotFoundPage />} />
 			</Route>
 		</Routes>

@@ -37,6 +37,7 @@ type ButtonComponent = {
 const Button: ButtonComponent = ({
 	variant = "primary",
 	colors = {},
+	className,
 	...props
 }) => {
 	// base classes
@@ -81,8 +82,9 @@ const Button: ButtonComponent = ({
 	//merge base classes with variant
 
 	const mergeClasses = twMerge([baseClasses, variantClasses])
+	const mainMergedClasses = twMerge([mergeClasses, className])
 
-	return <button className={mergeClasses} {...props} />
+	return <button className={mainMergedClasses} {...props} />
 }
 
 export default Button

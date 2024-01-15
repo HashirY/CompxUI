@@ -2,6 +2,7 @@ import { Link } from "react-router-dom"
 import Container from "../components/site/Container"
 import { BlockLinkCard } from "../components/library/Card"
 import { RxButton, RxIdCard, RxInput } from "react-icons/rx"
+import { TbTags } from "react-icons/tb"
 
 export const HomePage = () => {
 	return (
@@ -42,6 +43,17 @@ export const HomePage = () => {
 					}}
 				>
 					<RxInput className="h-10 w-10" />
+				</BlockLinkCard>
+				<BlockLinkCard
+					url="/tags"
+					text="Tags"
+					widthLimit="none"
+					CustomLinkComponent={Link}
+					customLinkProps={{
+						to: "/tags",
+					}}
+				>
+					<TbTags className="h-10 w-10" />
 				</BlockLinkCard>
 
 				{/* <Link to={"button"}>Button</Link>

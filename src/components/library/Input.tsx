@@ -19,7 +19,7 @@ export const Input: React.FC<InputProps> = ({
 	const mergedClasses = twMerge([baseClasses, className])
 
 	return (
-		<div className="max-w-sm space-y-3">
+		<div className="max-w-full space-y-3">
 			{label && (
 				<label className="mb-2 block text-sm font-medium dark:text-white">
 					{label}
